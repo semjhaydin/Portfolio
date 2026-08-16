@@ -1,10 +1,10 @@
 import React from "react";
-import { ExternalLink, Download } from "lucide-react";
+import { ExternalLink } from "lucide-react";
 import { PORTFOLIO_CONFIG } from "@/config/portfolioConfig";
 
 export const metadata = {
   title: "Sertifikalar | Semih Aydın",
-  description: "Sertifikalar ve CV dosyaları.",
+  description: "Resmi sertifikalar ve eğitim belgeleri.",
 };
 
 const certs = [
@@ -39,7 +39,7 @@ export default function CertificatesPage() {
     <div className="w-full max-w-4xl mx-auto py-6 flex flex-col gap-6 animate-fadeIn overflow-hidden">
       <div className="pb-4 border-b border-white/10 font-mono shrink-0">
         <h1 className="text-xl font-bold text-white tracking-wider">SERTİFİKALAR</h1>
-        <p className="text-[10px] text-white/35 mt-0.5 tracking-widest uppercase">Belgeler & CV Dosyaları</p>
+        <p className="text-[10px] text-white/35 mt-0.5 tracking-widest uppercase">Resmi Sertifikalar &amp; Belgeler</p>
       </div>
 
       <div className="shrink-0">
@@ -61,30 +61,6 @@ export default function CertificatesPage() {
               <ExternalLink className="w-3.5 h-3.5 text-white/20 group-hover:text-white transition-colors shrink-0 ml-3" />
             </a>
           ))}
-        </div>
-      </div>
-
-      <div className="shrink-0">
-        <p className="font-mono text-[10px] text-white/25 tracking-widest uppercase mb-3">// Güncel CV</p>
-        <div className="flex flex-col sm:flex-row gap-3">
-          <a
-            href={PORTFOLIO_CONFIG.contact.cvEnUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 px-5 py-3 bg-white text-black font-mono font-bold text-xs hover:bg-white/90 transition-all"
-          >
-            <Download className="w-3.5 h-3.5" />
-            English Resume (PDF)
-          </a>
-          <a
-            href={PORTFOLIO_CONFIG.contact.cvTrUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 px-5 py-3 border border-white/20 hover:border-white text-white font-mono text-xs transition-all"
-          >
-            <Download className="w-3.5 h-3.5" />
-            Türkçe CV (PDF)
-          </a>
         </div>
       </div>
     </div>

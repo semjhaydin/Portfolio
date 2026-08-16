@@ -78,14 +78,12 @@ export default function HomePage() {
             HAKKIMDAKİLER
           </Link>
 
-          <a
-            href={PORTFOLIO_CONFIG.contact.cvEnUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="px-6 py-3.5 text-white/40 hover:text-white tracking-wider transition-colors"
+          <Link
+            href="/iletisim"
+            className="px-6 py-3.5 border border-white/20 hover:border-white text-white tracking-wider transition-all"
           >
-            CV →
-          </a>
+            İLETİŞİME GEÇ
+          </Link>
         </div>
 
       </div>

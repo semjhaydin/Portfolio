@@ -147,7 +147,5 @@ export const PORTFOLIO_CONFIG = {
     linkedinUrl: "https://linkedin.com/in/aydinsemih61",
     twitterUrl: "https://x.com/semjhaydin",
     websiteUrl: "https://semihaydin.dev",
-    cvEnUrl: "https://semihaydin.dev/sertificates/SemihAydinResume20-05-2026.pdf",
-    cvTrUrl: "https://semihaydin.dev/sertificates/SemihAyd%C4%B1nCV20-05-2026.pdf",
   }
 };

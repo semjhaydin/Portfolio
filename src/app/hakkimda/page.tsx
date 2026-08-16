@@ -42,20 +42,9 @@ export default function AboutPage() {
     <div className="w-full max-w-4xl mx-auto py-6 flex flex-col gap-6 animate-fadeIn font-sans overflow-hidden">
 
       {/* Header row */}
-      <div className="flex items-center justify-between pb-4 border-b border-white/10 font-mono shrink-0">
-        <div>
-          <h1 className="text-xl font-bold text-white tracking-wider">HAKKIMDA</h1>
-          <p className="text-[10px] text-white/35 mt-0.5 tracking-widest uppercase">Deneyim & Kilometre Taşları</p>
-        </div>
-        <a
-          href={PORTFOLIO_CONFIG.contact.cvEnUrl}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-white text-black font-bold text-[10px] hover:bg-white/90 transition-all"
-        >
-          <Download className="w-3 h-3" />
-          <span>CV (PDF)</span>
-        </a>
+      <div className="pb-4 border-b border-white/10 font-mono shrink-0">
+        <h1 className="text-xl font-bold text-white tracking-wider">HAKKIMDA</h1>
+        <p className="text-[10px] text-white/35 mt-0.5 tracking-widest uppercase">Deneyim &amp; Kilometre Taşları</p>
       </div>
 
       {/* Experience — compact 2-col */}

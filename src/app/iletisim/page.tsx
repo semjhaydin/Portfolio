@@ -100,13 +100,6 @@ export default function ContactPage() {
             </div>
           </div>
 
-          <div className="space-y-2 pt-2 border-t border-white/8">
-            <p className="text-[9px] text-white/25 tracking-widest uppercase">// CV</p>
-            <div className="flex flex-col gap-1.5">
-              <a href={PORTFOLIO_CONFIG.contact.cvEnUrl} target="_blank" rel="noopener noreferrer" className="text-white/50 hover:text-white transition-colors">↓ English Resume</a>
-              <a href={PORTFOLIO_CONFIG.contact.cvTrUrl} target="_blank" rel="noopener noreferrer" className="text-white/50 hover:text-white transition-colors">↓ Türkçe CV</a>
-            </div>
-          </div>
         </div>
 
       </div>
